@@ -33,7 +33,7 @@ The dataset used contains the following columns:
 
 4. **Similarity Calculation**:
     - The similarity between movies is calculated using **cosine similarity**. Cosine similarity measures the angle between two vectors (movies) and outputs a score between 0 and 1, where 1 means the movies are identical.
-    - 
+      
 5. **Recommendation**:
     - The `recommend()` function accepts a movie title as input and returns the top 5 movies that are most similar based on the `tags` feature.
 
